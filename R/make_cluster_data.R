@@ -21,7 +21,7 @@ find_distance_matrix <- function(keywords, m_measures, min_dist){
   rownames(D) <- colnames(D)
 
   # Distance is 1 if in same cluster, 0 otherwise
-  D <- D > 1 - min_dist
+  D <- D >  min_dist
 
   return(D)
 }
