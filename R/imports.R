@@ -11,6 +11,7 @@
 #' @import tibble
 #' @import network
 #' @import ggrepel
+#' @import glue
 define_imports <- function(x){
   NULL
 }
